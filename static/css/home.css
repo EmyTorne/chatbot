@@ -45,6 +45,7 @@
     font-weight:bold;
 }
 .studies-box{
+	height:60%;
     width: 100%;
     bottom: 10%;
     left: 20px;
@@ -66,7 +67,7 @@
     font-family: 'Libre Baskerville', serif;
     text-shadow: 3px 2px 3px #222;
     color:#fff;
-    position:relative;
+    position:fixed;
 }
 .single-box img{
     width:100%;
