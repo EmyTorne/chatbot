@@ -31,9 +31,11 @@
 }
 
 .back{
+    
     width: 100%;
     background-size: cover;
-    position: fixed;
+    background-position: center;
+    height: 100vh;
 
 }
 
