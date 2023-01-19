@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>How to use our Chatbot</title>
+    <!-- TAB ICON LINK -->
+    <link rel="icon" href="assets/images/tab-icon.png">
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <style type="text/css">
+   /* HEADER SECTION STARTS */
+.showcase {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: url(pic/1.jpg)no-repeat center center/cover;
+}
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6) url(1.jpg);
+	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+/*NAVBAR*/
+.showcase-top {
+	position: relative;
+	z-index: 2;
+    padding: 26px 0px 0px 55px;
+}
+.showcase-top #logo{
+    width: 80px;
+    
+}
+.showcase-top .submit{
+    background-color:darkcyan;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    right: 55px;
+}
+.showcase-top .submit a{
+    background-color:darkcyan;
+    color: white;
+}
+
+
+.showcase-top select{
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    float: right;
+    position: relative;
+    right: 85px;
+}
+.showcase-top select option{
+    color: black;
+}
+/*GET STARTED*/
+.showcase .get-started-container{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    width: 100%;
+}
+.showcase .get-started-container h1,p{
+    color: white;
+}
+.showcase .get-started-container h1{
+    font-size: 3.9rem;
+}
+.showcase .get-started-container .para-1{
+    font-size: 1.7rem;
+}
+.showcase .get-started-container .para-2{
+    font-size: 1.2rem;
+}
+.showcase .get-started-container input{
+    width: 35%;
+    padding: 22px;
+    border: none;
+    margin-top: 0.5%;
+    outline: none;
+}
+.showcase .get-started-container button{
+    padding: 22px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    margin-left: -0.3%;
+    font-weight: bold;
+}
+/*HEADER SECTION ENDS*/
+
+/* MAIN SECTION STARTS */
+    /* START THE CONVERSATION */
+    .main-section .section-container{
+        border-top: 8px solid #222;
+        background-color: darkcyan;
+        display: flex;
+        padding: 0px 80px;
+        padding-bottom: 90px;
+    }
+    .main-section .section-container .left-column{
+        padding-top: 13%;
+        padding-right: 2%;
+    }
+    .main-section .section-container .left-column h1{
+        color: white;
+    }
+    .main-section .section-container .left-column h3{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 5%;
+    }
+    .main-section .section-container .right-column{
+        overflow: hidden;
+        position: relative;
+        width: 80%;
+        height: 500px;
+    }
+    .main-section .section-container .right-column img{
+        position: absolute;
+        width: 100%;
+    }
+    .main-section .section-container .right-column .video-1{
+        margin-left: 13%;
+        margin-top: 16%;
+        width: 73%;
+    }
+    /*TIP ON USING CHATBOT*/
+    .main-section .section2-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 0px 80px;
+        padding-bottom: 90px;
+    }
+    .main-section .section2-container .left-column img{
+        width: 100%;
+    }
+    .main-section .section2-container .left-column .box{
+        border: 2px solid rgba(255,255,255,.25);
+        background-color: black;
+        border-radius: 10px;
+        width: 60%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: -22%;
+    }
+    .main-section .section2-container .left-column .box .boxshot{
+        width: 15%;
+    }
+    .main-section .section2-container .left-column .box p{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .main-section .section2-container .left-column .box p a{
+        text-decoration: none;
+    }
+    .main-section .section2-container .left-column .box .download-gif{
+        width: 3em;
+        height: 3em;
+        position: absolute; 
+        right: 0;
+    }
+    .main-section .section2-container .right-column{
+        padding-top: 13%;
+        padding-right: 2%;
+        width: 50%;
+    }
+    .main-section .section2-container .right-column h1{
+        color: white;
+    }
+    .main-section .section2-container .right-column h3{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 5%;
+    }
+    /*WATCH EVERY WHERE*/
+    .main-section .section-container .right-column .video-2{
+        margin-left: 19%;
+        margin-top: 8%;
+        width: 61%;
+    }
+    /*CREATE PROFILE FOR KIDS*/
+    .main-section .section2-container .left-column img{
+        width: 100%;
+    }
+    
+/* MAIN SECTION ENDS */
+    </style>
+</head>
+<body>
+    <!-- HEADER SECTION STARTS -->
+    <header class="showcase">
+        <!-- NAVBAR -->
+        <nav class="showcase-top">
+            <img id="logo" src="logo.jpg">
+            <button class="submit" type="submit"> <a href="index.html">HOME</a>
+               
+                
+            </button>
+            <select>
+                <option value="/kw/"> Tagalog</option>
+                <option value="/kw-en/">English</option>
+            </select>
+        </nav>
+  <!-- GET STARTED -->
+        <div class="get-started-container">
+            <h1>How to Use our Website <br> The E-certanong</h1>
+            <p class="para-1">Here's our tip</p>
+            <p class="para-2">Please slide down</p>
+            <input type="text" name="email" placeholder="Email Address">
+            <button type="submit">Get Started ></button>
+        </div>
+    </header>
+    <!-- HEADER SECTION ENDS -->
+
+    <!-- MAIN SECTION STARTS -->
+    <section class="main-section">
+        <!-- START THE CONVERSATION -->
+        <div class="section-container">
+            <div class="left-column">
+                <h1>1. Start the Conversation.</h1>
+                <h3>To Start the conversation please type "how to apply" or "i would like to apply" or "how to get ID" or "how to get certificates"</h3>
+            </div>
+            <div class="right-column">
+                <img src="pic/tv.png">
+                <video class="video-1" autoplay="" playsinline="" muted="" loop="">
+                    <source src="videos/video1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <!-- TIP ON USING CHATBOT -->
+        <div class="section2-container">
+            <div class="left-column">
+                <img src="images/download.jpg">
+                <div class="box">
+                    <img class="boxshot" src="pic/580b57fbd9996e24bc43be10.png">
+                    <p>
+                        Remember
+                        <br>
+                        <a href="#">No spacing</a>
+                    </p>
+                    <img class="download-gif" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif">
+                </div>
+            </div>
+            <div class="right-column">
+                <h1>2. We had 2 Types of valid ID's and Certificate in the Philippines</h1>
+                <h3>Type "primary" to show primary valid ID's and Certificates and<br>Type "secondary" to show the secondary valid ID's and certificates</h3>
+            </div>
+        </div>
+        <!-- WATCH EVERY WHERE -->
+        <div class="section-container">
+            <div class="left-column">
+                <h1>3. Questions on ID's and Certificates you choose</h1>
+                <h3>Type the ID's or Certificate That you choose <br> and then the quide question will show and ready to answer your questions</h3>
+            </div>
+            <div class="right-column">
+                <img src="pic/computer.png">
+                <video class="video-2" autoplay="" playsinline="" muted="" loop="">
+                    <source src="videos/video2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <!-- CREATE PROFILE FOR KIDS -->
+        <div style="padding-top: 50px;" class="section2-container">
+            <div class="left-column">
+                <img src="pic/580b57fbd9996e24bc43be11.png">
+            </div>
+            <div class="right-column">
+                <h1>i hope you enjoy using our chatbot and help you for all your questions</h1>
+                <h3>please check if correct spell and correct capitalize the text your typing so that we can answer your questions</h3>
+            </div>
+        </div>
+    </section>
+    <!-- MAIN SECTION ENDS -->
+</body>
